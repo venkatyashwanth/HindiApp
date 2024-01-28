@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import SwiperOne from './components/SwiperOne';
+import './App.scss';
+
+
+
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <main className='main-content'>
+        <section className='section'>
+          <h2 className="primary-heading-text">Stage - I</h2>
+          <h3 className="secondary-heading-text">Learn</h3>
+          <SwiperOne/>
+
+        </section>
+      </main>
+    </>
   );
 }
 
